@@ -15,7 +15,7 @@
 ###
 ##NOTE:  this is where YOU change the code to location on your local computer
 ###
-MyData <- read.csv("E:/ResearchMethods/2015_Joe/DataAssignment/ResMethods_Data_15Apr2015.csv")
+MyData <- read.csv(url("https://github.com/dorpatczyk/GGPlotMay2015/blob/master/ResMethods_Data_15Apr2015.csv"))
 str(MyData)
 
 summary(MyData$Height)
